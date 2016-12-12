@@ -4,3 +4,8 @@ function pointLeft() {
 function pointRight() {
   console.log("point right");
 }
+for (var i = 0; i < 1; i++) {
+  pointLeft();
+  pointRight();
+  pointLeft();
+}
