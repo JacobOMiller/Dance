@@ -4,7 +4,7 @@ function pointLeft() {
 function pointRight() {
   console.log("point right");
 }
-for (var i = 0; i < 1; i++) {
+for (var i = 0; i < 2; i++) {
   pointLeft();
   pointRight();
   pointLeft();
