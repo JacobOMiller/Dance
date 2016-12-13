@@ -14,12 +14,19 @@ function stepRight(){
   console.log("step Right");
   alert("step right");
 }
+var dance = prompt("Would you like to dance y or n");
+if () {
 
-for (var i = 0; i < 2; i++) {
-  pointLeft();
-  pointRight();
 }
-for (var i = 0; i < 2; i++) {
-  stepLeft();
-  stepRight();
+function points(){
+  for (var i = 0; i < 2; i++) {
+    pointLeft();
+    pointRight();
+  }
+}
+function steps(){
+  for (var i = 0; i < 2; i++) {
+    stepLeft();
+    stepRight();
+  }
 }
