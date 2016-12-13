@@ -10,7 +10,7 @@ function stepLeft(){
 function stepRight(){
   console.log("step Right");
 }
-function stepRight
+
 for (var i = 0; i < 2; i++) {
   pointLeft();
   pointRight();
