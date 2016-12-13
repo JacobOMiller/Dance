@@ -4,7 +4,18 @@ function pointLeft() {
 function pointRight() {
   console.log("point right");
 }
+function stepLeft(){
+  console.log("step Left");
+}
+function stepRight(){
+  console.log("step Right");
+}
+function stepRight
 for (var i = 0; i < 2; i++) {
   pointLeft();
   pointRight();
+}
+for (var i = 0; i < 2; i++) {
+  stepLeft();
+  stepRight();
 }
